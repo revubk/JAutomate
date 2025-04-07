@@ -1,0 +1,27 @@
+{
+  "name": "jautomate",
+  "version": "1.0.0",
+  "description": "automate flows of website",
+  "homepage": "https://github.com/revubk/JAutomate#readme",
+  "bugs": {
+    "url": "https://github.com/revubk/JAutomate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revubk/JAutomate.git"
+  },
+  "license": "MIT",
+  "author": "revu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "playwright": "^1.51.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1"
+  }
+}

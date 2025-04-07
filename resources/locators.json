@@ -1,0 +1,6 @@
+{
+    "UserName": "[data-test-id='input-email'] input",
+    "PassWord": "[data-test-id='input-password'] input",
+    "LoginButton": "[data-test-id='signin']"
+}
+  
