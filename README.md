@@ -22,5 +22,5 @@ npx playwright test
 
 ## 📊 Generate HTML report
 ```bash
-npx playwright show-report
+npx playwright test --reporter=html
 ```
