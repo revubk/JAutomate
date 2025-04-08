@@ -20,12 +20,7 @@ This project demonstrates automation skills including:
 npx playwright test
 ```
 
-## 🧪 Generate HTML report
+## 📊 Generate HTML report
 ```bash
 npx playwright show-report
-```
-
-### 1. Install dependencies
-```bash
-npm install
 ```
