@@ -1,5 +1,7 @@
 {
     "ProfileButton": "[data-test-id='header-menu']",
-    "LogoutButton": "[data-test-id='header-logout']"
+    "LogoutButton": "[data-test-id='header-logout']",
+    "AddAPurchaseButton": "//span[contains(text(),'Add a purchase')]",
+    "AddAPurchaseDialoge": "[class='MuiDialog-container MuiDialog-scrollPaper'] [role='dialog']"
 }
   
