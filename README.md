@@ -1,6 +1,6 @@
 # 🚀 Playwright Automation Suite
 
-This repository contains Playwright-based end-to-end tests written as part of the technical evaluation for **[Company Name]**.
+This repository contains Playwright-based end-to-end tests written as part of the technical evaluation for **Jules AI*.
 
 ---
 
@@ -16,11 +16,11 @@ This project demonstrates automation skills including:
 ---
 
 ## 🧪 How to Run Tests  Generate HTML report
-
+```bash
 npx playwright test
 
 ## 🧪 Generate HTML report
-
+```bash
 npx playwright show-report
 
 ### 1. Install dependencies
