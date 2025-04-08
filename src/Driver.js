@@ -1,5 +1,5 @@
 const { chromium, firefox, webkit } = require('playwright');
-const { loadPropKey } = require('./loadResources.js');
+const { loadPropKey } = require('./LoadResources.js');
 
 async function launchApp() {
   const browserName = await loadPropKey('browser');

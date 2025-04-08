@@ -1,8 +1,0 @@
-{
-    "UserName": "[data-test-id='input-email'] input",
-    "PassWord": "[data-test-id='input-password'] input",
-    "LoginButton": "[data-test-id='signin']",
-    "errorBelowUsername": "//*[@data-test-id='input-email']/following-sibling::*[1]",
-    "errorBelowPassword": "//*[@data-test-id='input-password']/following-sibling::*[1]"
-}
-  

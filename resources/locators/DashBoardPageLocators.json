@@ -1,0 +1,5 @@
+{
+    "ProfileButton": "[data-test-id='header-menu']",
+    "LogoutButton": "[data-test-id='header-logout']"
+}
+  
