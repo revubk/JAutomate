@@ -30,7 +30,7 @@ async function launchApp() {
   await page.waitForLoadState('domcontentloaded');
   console.log('✅ Page loaded successfully');
 
-  return { browser, context, page };
+  return { page };
 }
 
 module.exports = {
