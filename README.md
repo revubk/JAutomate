@@ -1,6 +1,6 @@
 # 🚀 Playwright Automation Suite
 
-This repository contains Playwright-based end-to-end tests written as part of the technical evaluation for **Jules AI**.
+This repository contains Playwright-based end-to-end Test Automation and API automation framework
 
 ---
 
