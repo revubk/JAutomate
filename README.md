@@ -1,4 +1,4 @@
-# 🚀 Playwright Automation Suite
+# 🚀 pw-web - Playwright Web Automation framework
 
 This repository contains Playwright-based end-to-end Test Automation and API automation framework
 
