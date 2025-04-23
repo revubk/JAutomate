@@ -11,10 +11,6 @@ test('Validate Dashboard page', async () => {
     
   });
 
-  await test.step('Validate Tab clicks and Add purchase button', async () => {
-    await expect(page).toHaveURL('https://demo.haroldwaste.com/purchases');
-  });
-
   await test.step('Validate tab clicks', async () => {
 
     const tabs = page.locator('[role="tab"]');

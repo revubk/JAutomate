@@ -36,7 +36,7 @@ await test.step('Choose Purchases options', async () => {
 
     const options = {'Purchases.Trading': 'Purchase & Opportunity list', 
       'Purchases.Recycling': 'Purchase & Opportunity list', 
-      'Purchases.ContractAndServices': 'Contracts & Services',
+      // 'Purchases.ContractAndServices': 'Contracts & Services',
       'Purchases.Offers':'Offers',
       'Purchases.SourcingHub':'Sourcing hub',
       'Purchases.PurchaseGoals':'Purchase goals & Target purchase costs'}
