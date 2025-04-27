@@ -1,5 +1,10 @@
 {
-    "browser": "chrome",
-    "url":"https://demo.haroldwaste.com/"
+    "BrowserConfigs": {
+        "browser": "chrome",
+        "headless": true
+    },
+    "PageUrls": {
+        "url1": "https://www.saucedemo.com/",
+        "harold": "https://demo.haroldwaste.com/"
+    }
 }
-  
