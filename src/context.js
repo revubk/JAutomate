@@ -2,6 +2,7 @@ import { launchApp, closeApp } from '../src/DriverControls'
 
 let _page;
 <<<<<<< HEAD
+<<<<<<< HEAD
 let _initialized = false;
 
 export async function getPage() {
@@ -13,6 +14,14 @@ export async function getPage() {
 export async function getPage() {
   if (!_page) {
 >>>>>>> 58f0c13 (Modified setup functions of browser and added action functions)
+=======
+let _initialized = false;
+
+export async function getPage() {
+  if (!_page && _initialized==false) {
+    _initialized = true;
+    console.log('🚀 Creating NEW browser instance');
+>>>>>>> 7dfc529 (modified yml, modified jsons pom and some tests( not all))
     _page = await launchApp();
   }
   return _page;

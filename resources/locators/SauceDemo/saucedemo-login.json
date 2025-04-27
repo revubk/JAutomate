@@ -1,6 +1,6 @@
 {
     "page": "saucedemo-login",
-    "url": "https://www.saucedemo.com/",
+    "url": "/*",
     "loadableComponents": [],
     "elements": {
         "LoginElements": {
@@ -15,8 +15,6 @@
             "LoginPasswordColumn": ".login_password"
         },
         "Errors": {
-            "errorIconUsername" :"div[class='login-box'] div:nth-child(1) svg",
-            "errorIconPassword" :"div[class='login_wrapper-inner'] div:nth-child(2) svg path",
             "errorMessageContainer": ".error-message-container.error",
             "errorMessageText": "//h3[@data-test='error']",
             "errorMessageClose": "//button[@class='error-button']"
