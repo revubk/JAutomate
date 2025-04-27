@@ -4,6 +4,18 @@ This repository contains Playwright-based end-to-end Test Automation and API aut
 
 ---
 
+## 🌟 Key Features
+
+JSON-Powered Locator Management - Externalized element selectors with dynamic loading
+
+Intelligent Page Context - Automatic validation of page states
+
+Multi-Environment Ready - Configured for CI/CD pipelines
+
+API + UI Unified - Shared authentication and test contexts
+
+---
+
 ## 📌 About
 
 This project demonstrates automation skills including:
@@ -24,3 +36,4 @@ npx playwright test
 ```bash
 npx playwright test --reporter=html
 ```
+---
