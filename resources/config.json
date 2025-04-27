@@ -4,6 +4,11 @@
         "headless": true
     },
     "PageUrls": {
+<<<<<<< HEAD
         "sauceDemo": "https://www.saucedemo.com/"
+=======
+        "url1": "https://www.saucedemo.com/",
+        "harold": "https://demo.haroldwaste.com/"
+>>>>>>> 6d9e383 (Added new driver configs)
     }
 }
