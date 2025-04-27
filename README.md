@@ -13,7 +13,19 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 
 ---
 
-## 🌟 Key Skills Demonstrated
+## 🌟 Key Features
+
+JSON-Powered Locator Management - Externalized element selectors with dynamic loading
+
+Intelligent Page Context - Automatic validation of page states
+
+Multi-Environment Ready - Configured for CI/CD pipelines
+
+API + UI Unified - Shared authentication and test contexts
+
+---
+
+## 📌 About
 
 ### Framework Architecture
 
@@ -58,32 +70,6 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 ### Run the demo suite
 
 ```bash
-
-npm install
-npm run test
-npm run generate-report
-
+npx playwright test --reporter=html
 ```
-
-### Key Files to Review:
-
-- ValidationHelper.js (Custom assertion logic)
-- ProductsPage.test.js (UI test example)
-- UpdateBooking.test.js (API test example)
-
 ---
-
-## 📌 Why This Stands Out
-
-Unlike basic automation scripts, this project showcases:
-
-- 🔹 Strategic Thinking: Layered architecture for long-term maintenance
-- 🔹 Technical Depth: Advanced Playwright features implemented correctly
-- 🔹 Business Alignment: CI/CD integration shows DevOps awareness
-
----
-
-**Let's discuss how these skills can benefit your team!**
-
-📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
-

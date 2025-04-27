@@ -1,7 +1,7 @@
 {
     "BrowserConfigs": {
         "browser": "chrome",
-        "headless": false
+        "headless": true
     },
     "PageUrls": {
         "url1": "https://www.saucedemo.com/",

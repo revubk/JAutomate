@@ -1,21 +1,21 @@
 {
-  "name": "jautomate",
+  "name": "pw-web",
   "version": "1.0.0",
   "description": "automate flows of website",
-  "homepage": "https://github.com/revubk/JAutomate#readme",
+  "homepage": "https://github.com/revubk/pw-web#readme",
   "bugs": {
-    "url": "https://github.com/revubk/JAutomate/issues"
+    "url": "https://github.com/revubk/pw-web/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/revubk/JAutomate.git"
+    "url": "git+https://github.com/revubk/pw-web.git"
   },
   "license": "MIT",
   "author": "revu",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test --grep @runTest"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
