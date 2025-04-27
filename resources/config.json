@@ -1,7 +1,7 @@
 {
     "BrowserConfigs": {
         "browser": "chrome",
-        "headless": true
+        "headless": false
     },
     "PageUrls": {
 <<<<<<< HEAD

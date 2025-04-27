@@ -1,11 +1,11 @@
 const { chromium, firefox, webkit } = require('playwright');
 const { loadConfig } = require('./LoadResources.js');
+const { getPage } = require('./context.js');
 
-let context;
-async function launchAppForUrl(url) {
+
+async function launchApp() {
+
   const browserName = await loadConfig('BrowserConfigs.browser');
-  const url = await loadConfig(`PageUrls.${url}`);
-  console.log("Loaded URL from config:", url);
 
   let browserType;
 
@@ -23,12 +23,19 @@ async function launchAppForUrl(url) {
       throw new Error(`Unsupported browser specified: ${browserName}`);
   }
 
-  const browser = await browserType.launch({headless : await loadConfig('BrowserConfigs.headless')});
+  const browser = await browserType.launch({ headless: await loadConfig('BrowserConfigs.headless') });
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto(url);
-  await page.waitForLoadState('networkidle');
+  return page;
+}
+
+async function navigateTo(url) {
+  const page = await getPage();
+  console.log("Loaded URL from config-", `PageUrls.${url}`+ ": " + loadConfig(`PageUrls.${url}`));
+
+  await page.goto(await loadConfig(`PageUrls.${url}`));
+  await page.waitForLoadState('domcontentloaded');
   console.log('✅ Page loaded successfully');
 
 }
@@ -39,12 +46,8 @@ async function closeApp() {
 
 }
 
-async function closeApp()
-{
-  await context.close();
-}
-
 module.exports = {
-  launchAppForUrl,
+  launchApp,
+  navigateTo,
   closeApp
 };
