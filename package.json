@@ -14,9 +14,7 @@
   "author": "revu",
   "type": "commonjs",
   "scripts": {
-    "test": "npx playwright test",
-    "api-test": "npx playwright test api/",
-    "generate-report": "npx playwright test --reporter=html"
+    "test": "npx playwright test --grep @runTest"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
