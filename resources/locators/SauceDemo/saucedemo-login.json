@@ -1,0 +1,23 @@
+{
+    "page": "saucedemo-login",
+    "url": "/*",
+    "loadableComponents": [],
+    "elements": {
+        "LoginElements": {
+            "UserName": "//input[@id='user-name']",
+            "PassWord": "//input[@id='password']",
+            "LoginButton": "//input[@id='login-button']"
+        },
+        "PageElements": {
+            "Heading": ".login_logo",
+            "LoginDescriptionBox": "#login_credentials",
+            "LoginUsernameColumn": "#login_credentials",
+            "LoginPasswordColumn": ".login_password"
+        },
+        "Errors": {
+            "errorMessageContainer": ".error-message-container.error",
+            "errorMessageText": "//h3[@data-test='error']",
+            "errorMessageClose": "//button[@class='error-button']"
+        }
+    }
+}

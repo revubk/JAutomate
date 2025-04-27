@@ -1,15 +1,10 @@
 const { test, expect } = require('@playwright/test');
-const { loginWith } = require('../src/LoginHelper.js')
 const { loadLocatorOf } = require('../src/LoadResources.js')
 const testData = require('../resources/testData.json');
 
-
+//NOT UPDATED
 test('Choose different sections on Dashboard', async () =>{
 
-  const { page } = await test.step('Login', async () => {
-
-    return await loginWith(testData[0].username, testData[0].password);
-  });
 
   await test.step('Choose Supplier and Customer options', async () => {
     

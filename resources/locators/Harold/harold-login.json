@@ -1,0 +1,25 @@
+{
+    "page": "harold-login",
+    "url": "*/authentication",
+    "loadableComponents": [],
+    "elements": {
+        "LoginElements": {
+            "UserName": "[data-test-id='input-email'] input",
+            "PassWord": "[data-test-id='input-password'] input",
+            "LoginButton": "[data-test-id='signin']"
+        },
+        "PageElements": {
+            "Header": "[class='headroom headroom--unfixed']",
+            "LoginTitle": "//p[normalize-space()='Log in']",
+            "LoginDescriptionText": "//p[contains(text(),'Optimize and control')]",
+            "LoginWithMicrosoft": "//span[text()='Login with Google']",
+            "LoginWithGoogle": "//span[text()='Login with Microsoft']",
+            "EmailLabel": "//label[text()='Email']",
+            "PasswordLabel": "//label[text()='Password']"
+        },
+        "Errors": {
+            "errorBelowUsername": "//*[@data-test-id='input-email']/following-sibling::*[1]",
+            "errorBelowPassword": "//*[@data-test-id='input-password']/following-sibling::*[1]"
+        }
+    }
+}
