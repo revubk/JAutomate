@@ -4,7 +4,6 @@
         "headless": true
     },
     "PageUrls": {
-        "url1": "https://www.saucedemo.com/",
-        "harold": "https://demo.haroldwaste.com/"
+        "sauceDemo": "https://www.saucedemo.com/"
     }
 }
