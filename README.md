@@ -27,13 +27,17 @@ This project demonstrates automation skills, including:
 
 ---
 
-## 🧪 How to Run Tests
+## 🧪 How to Run all tests
 ```bash
-npn run test
+npm run test
 ```
 
-## 📊 Generate HTML report
+## 🧪 How to Run only API tests
 ```bash
-npx playwright test --reporter=html
+npm run api-test
 ```
 ---
+## 📊 Generate HTML report
+```bash
+npm run generate-report
+```
