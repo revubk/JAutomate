@@ -13,9 +13,9 @@
   "license": "MIT",
   "author": "revu",
   "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --grep @runTest"
+    "test": "npx playwright test",
+    "api-tests": "npx playwright test api/"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
