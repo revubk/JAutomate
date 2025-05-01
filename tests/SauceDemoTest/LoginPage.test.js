@@ -63,7 +63,11 @@ test.describe('@runTest', () => {
             await clickOn('LoginElements.LoginButton');
 
             await waitForPageLoad();
+<<<<<<< HEAD
             resources.setPage('saucedemo-product-page');
+=======
+            resources.setPage('saucedemo-dashboard');
+>>>>>>> 585b806 (Added Login Validation for SauceDemo site and some action functions)
             await elementToHaveText('Header.Title', "Swag Labs");
             await clickOn('Header.HamburgerIcon');
             await clickOn('Hamburger.Logout');

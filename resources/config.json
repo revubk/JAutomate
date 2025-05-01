@@ -5,10 +5,14 @@
     },
     "PageUrls": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "sauceDemo": "https://www.saucedemo.com/"
 =======
         "url1": "https://www.saucedemo.com/",
         "harold": "https://demo.haroldwaste.com/"
 >>>>>>> 6d9e383 (Added new driver configs)
+=======
+        "sauceDemo": "https://www.saucedemo.com/"
+>>>>>>> 585b806 (Added Login Validation for SauceDemo site and some action functions)
     }
 }

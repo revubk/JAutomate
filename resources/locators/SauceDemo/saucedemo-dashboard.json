@@ -1,0 +1,19 @@
+{
+    "page": "saucedemo-dashboard",
+    "url": "https://www.saucedemo.com/inventory.html",
+    "loadableComponents": [],
+    "elements": {
+        "Header": {
+            "Title": "//div[@class='app_logo']",
+            "HamburgerIcon": "#react-burger-menu-btn",
+            "CartIcon": ".shopping_cart_link"
+        },
+        "Hamburger": {
+            "Logout": "#logout_sidebar_link",
+            "AllItems": "#inventory_sidebar_link",
+            "About": "#about_sidebar_link",
+            "ResetAppStatus": "#reset_sidebar_link",
+            "Close": "#react-burger-cross-btn"
+        }
+    }
+}
