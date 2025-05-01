@@ -15,7 +15,7 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 
 ## 🌟 Key Features
 
-JSON-Powered Locator Management - Externalized element selectors with dynamic loading
+JSON-Powered Locator Management - Externalised element selectors with dynamic loading
 
 Intelligent Page Context - Automatic validation of page states
 
@@ -27,47 +27,19 @@ API + UI Unified - Shared authentication and test contexts
 
 ## 📌 About
 
-### Framework Architecture
-
-✔ Custom Helper Layers
-
-- Action Layer: ActionsHelper.js (Reusable interactions)
-- Validation Layer: ValidationHelper.js (Smart assertions)
-- Capture Layer: CaptureHelper.js (Data extraction)
-
-✔ Dynamic Resource Loading
-
-- Externalized locators in *.json
-- Config management via config.json
-
-✔ Cross-Test Type Support
-
-- UI Tests: Full POM implementation
-- API Tests: Shared auth tokens (see UpdateBooking.test.js)
-
-
-### Scalability Features
-
-✔ Test Data Management
-
-```json
-
-// Data-driven testing
-"username": "performance_glitch_user",
-"password": "secret_sauce" 
-
-```
-
-✔ CI/CD Ready
-
-- Parallel execution config
-- HTML reporting pipeline
+This project demonstrates automation skills, including:
+- Page object modelling using JSONs
+- Navigations and Error validations
+- Test structure and assertions
+- Headless browser handling
+- CI/CD readiness
 
 ---
 
-## 🚀 How to Experience the Framework
-
-### Run the demo suite
+## 🧪 How to Run Tests
+```bash
+npn run test
+```
 
 ```bash
 npx playwright test --reporter=html
