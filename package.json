@@ -15,7 +15,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "npx playwright test",
-    "api-tests": "npx playwright test api/"
+    "api-test": "npx playwright test api/",
+    "generate-report": "npx playwright test --reporter=html"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
