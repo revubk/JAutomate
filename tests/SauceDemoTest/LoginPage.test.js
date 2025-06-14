@@ -63,7 +63,7 @@ test.describe('@runTest', () => {
             await clickOn('LoginElements.LoginButton');
 
             await waitForPageLoad();
-            resources.setPage('saucedemo-dashboard');
+            resources.setPage('saucedemo-product-page');
             await elementToHaveText('Header.Title', "Swag Labs");
             await clickOn('Header.HamburgerIcon');
             await clickOn('Hamburger.Logout');
