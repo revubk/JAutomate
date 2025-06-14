@@ -64,10 +64,14 @@ test.describe('@runTest', () => {
 
             await waitForPageLoad();
 <<<<<<< HEAD
+<<<<<<< HEAD
             resources.setPage('saucedemo-product-page');
 =======
             resources.setPage('saucedemo-dashboard');
 >>>>>>> 585b806 (Added Login Validation for SauceDemo site and some action functions)
+=======
+            resources.setPage('saucedemo-product-page');
+>>>>>>> 40c4c73 (Added Product Page Validation test for SauceDemo page)
             await elementToHaveText('Header.Title', "Swag Labs");
             await clickOn('Header.HamburgerIcon');
             await clickOn('Hamburger.Logout');
