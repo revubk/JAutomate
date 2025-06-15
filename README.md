@@ -4,13 +4,18 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 
 ---
 ## Technical Stack
-https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shields.io/badge/JavaScript-ES6+-F7DF1E https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF
+
+<img>https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright</img>
+
+<img>https://img.shields.io/badge/JavaScript-ES6+-F7DF1E</img>
+
+<img>https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF</img>
 
 ---
 
 ## 🌟 Key Skills Demonstrated
 
-1. Framework Architecture
+### 1. Framework Architecture
 
 ✔ Custom Helper Layers
 
@@ -29,7 +34,7 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 - API Tests: Shared auth tokens (see UpdateBooking.test.js)
 
 
-3. Scalability Features
+### 2. Scalability Features
 
 ✔ Test Data Management
 
