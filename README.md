@@ -103,4 +103,3 @@ Unlike basic automation scripts, this project showcases:
 
 📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
 
----
