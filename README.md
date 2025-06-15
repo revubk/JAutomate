@@ -15,7 +15,7 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 
 ## 🌟 Key Skills Demonstrated
 
-### 1. Framework Architecture
+### Framework Architecture
 
 ✔ Custom Helper Layers
 
@@ -34,7 +34,7 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 - API Tests: Shared auth tokens (see UpdateBooking.test.js)
 
 
-### 2. Scalability Features
+### Scalability Features
 
 ✔ Test Data Management
 
@@ -55,15 +55,17 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 
 ## 📈 What Makes This Professional-Grade?
 
-- For SDET Roles
-✅ Proves ability to build maintainable frameworks (not just write tests)
-✅ Shows understanding of test architecture patterns
-✅ Demonstrates CI/CD integration skills
+### For SDET Roles
 
-- For Automation Engineers
-✅ Externalized test data/locators for easy maintenance
-✅ Reusable component design
-✅ Production-ready error handling
+- ✅ Proves ability to build maintainable frameworks (not just write tests)
+- ✅ Shows understanding of test architecture patterns
+- ✅ Demonstrates CI/CD integration skills
+
+### For Automation Engineers
+
+- ✅ Externalized test data/locators for easy maintenance
+- ✅ Reusable component design
+- ✅ Production-ready error handling
 
 ---
 
@@ -91,9 +93,9 @@ npm run generate-report
 
 Unlike basic automation scripts, this project showcases:
 
-🔹 Strategic Thinking: Layered architecture for long-term maintenance
-🔹 Technical Depth: Advanced Playwright features implemented correctly
-🔹 Business Alignment: CI/CD integration shows DevOps awareness
+- 🔹 Strategic Thinking: Layered architecture for long-term maintenance
+- 🔹 Technical Depth: Advanced Playwright features implemented correctly
+- 🔹 Business Alignment: CI/CD integration shows DevOps awareness
 
 Let's discuss how these skills can benefit your team!
 
