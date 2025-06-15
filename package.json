@@ -14,7 +14,7 @@
   "author": "revu",
   "type": "commonjs",
   "scripts": {
-    "test": "npx playwright test",
+    "test": "npx playwright test test/",
     "api-test": "npx playwright test api/",
     "generate-report": "npx playwright test --reporter=html"
   },
