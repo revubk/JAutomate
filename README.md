@@ -12,9 +12,9 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 
 1. Framework Architecture
 
-✔ Custom Helper LayersAction Layer: 
+✔ Custom Helper Layers
 
-- ActionsHelper.js (Reusable interactions)
+- Action Layer: ActionsHelper.js (Reusable interactions)
 - Validation Layer: ValidationHelper.js (Smart assertions)
 - Capture Layer: CaptureHelper.js (Data extraction)
 
@@ -26,7 +26,6 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 ✔ Cross-Test Type Support
 
 - UI Tests: Full POM implementation
-
 - API Tests: Shared auth tokens (see UpdateBooking.test.js)
 
 
@@ -35,6 +34,7 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 ✔ Test Data Management
 
 ```json
+
 // Data-driven testing
 "username": "performance_glitch_user",
 "password": "secret_sauce" 
@@ -44,7 +44,6 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 ✔ CI/CD Ready
 
 - Parallel execution config
-
 - HTML reporting pipeline
 
 ---
@@ -65,18 +64,20 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 
 ## 🚀 How to Experience the Framework
 
-# Run the demo suite
+### Run the demo suite
+
 ```bash
+
 npm install
-npm test
+npm run test
+npm run generate-report
+
 ```
 
 ### Key Files to Review:
 
 - ValidationHelper.js (Custom assertion logic)
-
 - ProductsPage.test.js (UI test example)
-
 - UpdateBooking.test.js (API test example)
 
 ---
@@ -84,11 +85,13 @@ npm test
 ## 📌 Why This Stands Out
 
 Unlike basic automation scripts, this project showcases:
+
 🔹 Strategic Thinking: Layered architecture for long-term maintenance
 🔹 Technical Depth: Advanced Playwright features implemented correctly
 🔹 Business Alignment: CI/CD integration shows DevOps awareness
 
 Let's discuss how these skills can benefit your team!
+
 📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
 
 ---
