@@ -8,16 +8,6 @@ https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright https://img.shiel
 
 ---
 
-<<<<<<< Updated upstream
-## 📌 About
-
-This project demonstrates automation skills including:
-- Page object modeling using JSONs
-- Navigations and Error validations
-- Test structure and assertions
-- Headless browser handling
-- CI/CD readiness
-=======
 ## 🌟 Key Skills Demonstrated
 
 1. Framework Architecture
@@ -36,7 +26,6 @@ This project demonstrates automation skills including:
 ✔ Cross-Test Type Support
 
 - UI Tests: Full POM implementation
->>>>>>> Stashed changes
 
 - API Tests: Shared auth tokens (see UpdateBooking.test.js)
 
@@ -50,17 +39,6 @@ This project demonstrates automation skills including:
 "username": "performance_glitch_user",
 "password": "secret_sauce" 
 
-<<<<<<< Updated upstream
-## 🧪 How to Run Tests  Generate HTML report
-```bash
-npx playwright test
-```
-
-## 📊 Generate HTML report
-```bash
-npx playwright test --reporter=html
-```
-=======
 ```
 
 ✔ CI/CD Ready
@@ -114,4 +92,3 @@ Let's discuss how these skills can benefit your team!
 📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
 
 ---
->>>>>>> Stashed changes
