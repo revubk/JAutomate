@@ -1,43 +1,88 @@
 # 🚀 pw-web - Playwright Web Automation framework
 
-This repository contains Playwright-based end-to-end Test Automation and API automation framework
+Demonstrating Enterprise-Grade Test Engineering Skills
+
+---
+## Technical Stack
+
+<img src="https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright">
+
+<img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E">
+
+<img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF">
 
 ---
 
-## 🌟 Key Features
+## 🌟 Key Skills Demonstrated
 
-JSON-Powered Locator Management - Externalised element selectors with dynamic loading
+### Framework Architecture
 
-Intelligent Page Context - Automatic validation of page states
+✔ Custom Helper Layers
 
-Multi-Environment Ready - Configured for CI/CD pipelines
+- Action Layer: ActionsHelper.js (Reusable interactions)
+- Validation Layer: ValidationHelper.js (Smart assertions)
+- Capture Layer: CaptureHelper.js (Data extraction)
 
-API + UI Unified - Shared authentication and test contexts
+✔ Dynamic Resource Loading
+
+- Externalized locators in *.json
+- Config management via config.json
+
+✔ Cross-Test Type Support
+
+- UI Tests: Full POM implementation
+- API Tests: Shared auth tokens (see UpdateBooking.test.js)
+
+
+### Scalability Features
+
+✔ Test Data Management
+
+```json
+
+// Data-driven testing
+"username": "performance_glitch_user",
+"password": "secret_sauce" 
+
+```
+
+✔ CI/CD Ready
+
+- Parallel execution config
+- HTML reporting pipeline
 
 ---
 
-## 📌 About
+## 🚀 How to Experience the Framework
 
-This project demonstrates automation skills, including:
-- Page object modelling using JSONs
-- Navigations and Error validations
-- Test structure and assertions
-- Headless browser handling
-- CI/CD readiness
+### Run the demo suite
 
----
-
-## 🧪 How to Run all tests
 ```bash
+
+npm install
 npm run test
+npm run generate-report
+
 ```
 
-## 🧪 How to Run only API tests
-```bash
-npm run api-test
-```
+### Key Files to Review:
+
+- ValidationHelper.js (Custom assertion logic)
+- ProductsPage.test.js (UI test example)
+- UpdateBooking.test.js (API test example)
+
 ---
-## 📊 Generate HTML report
-```bash
-npm run generate-report
-```
+
+## 📌 Why This Stands Out
+
+Unlike basic automation scripts, this project showcases:
+
+- 🔹 Strategic Thinking: Layered architecture for long-term maintenance
+- 🔹 Technical Depth: Advanced Playwright features implemented correctly
+- 🔹 Business Alignment: CI/CD integration shows DevOps awareness
+
+---
+
+**Let's discuss how these skills can benefit your team!**
+
+📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
