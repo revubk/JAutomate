@@ -5,11 +5,11 @@ Demonstrating Enterprise-Grade Test Engineering Skills
 ---
 ## Technical Stack
 
-<img>https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright</img>
+<img src="https://img.shields.io/badge/Playwright-2E3A8C?logo=playwright">
 
-<img>https://img.shields.io/badge/JavaScript-ES6+-F7DF1E</img>
+<img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E">
 
-<img>https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF</img>
+<img src="https://img.shields.io/badge/CI/CD-GitHub_Actions-2088FF">
 
 ---
 
