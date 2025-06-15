@@ -97,7 +97,9 @@ Unlike basic automation scripts, this project showcases:
 - 🔹 Technical Depth: Advanced Playwright features implemented correctly
 - 🔹 Business Alignment: CI/CD integration shows DevOps awareness
 
-Let's discuss how these skills can benefit your team!
+---
+
+**Let's discuss how these skills can benefit your team!**
 
 📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
 
