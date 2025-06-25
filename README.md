@@ -85,4 +85,4 @@ Unlike basic automation scripts, this project showcases:
 
 **Let's discuss how these skills can benefit your team!**
 
-📧 revubk123@gmail.com | 🔗 LinkedIn: [https://www.linkedin.com/in/revu-b-krishna/]
+📧 [Email](revubk123@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/revu-b-krishna/)
